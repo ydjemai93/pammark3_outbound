@@ -1,17 +1,24 @@
 {
-  "name": "twilio-outbound-caller",
-  "version": "1.0.0",
-  "description": "Script pour initier des appels sortants via Twilio",
+  "name": "deepgram-streaming-voice-agent-outbound",
+  "version": "0.0.1",
+  "description": "Streaming Voice Agent Outbound avec Deepgram, OpenAI et Twilio",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2",
-    "twilio": "^4.15.0"
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@deepgram/sdk": "^3.4.4",
+    "dotenv": "^16.4.5",
+    "httpdispatcher": "^2.1.2",
+    "openai": "^4.52.7",
+    "twilio": "^4.15.0",
+    "websocket": "^1.0.28",
+    "ws": "^8.13.0"
+  }
 }
